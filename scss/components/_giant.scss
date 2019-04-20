@@ -1,0 +1,11 @@
+.giant {
+  &-card {
+    height: 20rem;
+    background-color: blue;
+    transition: all 1s ease;
+    &:hover {
+      background-color: red;
+      color: $white;
+    }
+  }
+}
