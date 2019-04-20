@@ -8,42 +8,46 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header class="container">
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark justify-content-center">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
-  </header>
   <main>
+    <nav class="site-header sticky-top py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="#about">About</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+        <!-- <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Cart</a> -->
+      </div>
+    </nav>
     <section>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 d-flex align-items-center justify-content-center landing">
-            <div class="col">
-              <h1>Higher Than You Photography</h1>
-              <p>some classy drone shit</p>
-            </div>
-            <div class="col">
-              <h3>some photo or video</h3>
-            </div>
+        <div class="row landing">
+          <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-start">
+            <h1>Higher Than You Photography</h1>
+            <p>some classy drone shit</p>
+          </div>
+          <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-start">
+            <h3>some photo or video</h3>
           </div>
         </div>
       </div>
     </section>
-    <section>
+    <section id="about">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 d-flex align-items-center justify-content-center">
-            <div class="col giant-card"><h4>Giant Card 1</h4></div>
-            <div class="col giant-card"><h4>Giant Card 2</h4></div>
-            <div class="col giant-card"><h4>Giant Card 3</h4></div>
-          </div>
+          <div class="col-12 col-md-4 giant-card"><h4>Giant Card 1</h4></div>
+          <div class="col-12 col-md-4 giant-card"><h4>Giant Card 2</h4></div>
+          <div class="col-12 col-md-4 giant-card"><h4>Giant Card 3</h4></div>
         </div>
       </div>
     </section>
   </main>
   <footer><h3>foot</h3></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="/js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
