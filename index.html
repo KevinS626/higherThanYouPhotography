@@ -89,34 +89,41 @@
       <h2 class="text-center mt-0">What we can do for you</h2>
       <hr class="divider my-4">
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
+        <button data-filter="all" class="col-lg-3 col-md-6 text-center filter-button">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-home text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Show all</h3>
+            <!-- <p class="text-muted mb-0">Capture </p> -->
+          </div>
+        </button>
+        <button data-filter="realEstate" class="col-lg-3 col-md-6 text-center filter-button">
           <div class="mt-5">
             <i class="fas fa-4x fa-home text-primary mb-4"></i>
             <h3 class="h4 mb-2">Real Estate</h3>
             <!-- <p class="text-muted mb-0">Capture </p> -->
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        </button>
+        <button data-filter="construction" class="col-lg-3 col-md-6 text-center filter-button">
           <div class="mt-5">
             <i class="fas fa-4x fa-wrench text-primary mb-4"></i>
             <h3 class="h4 mb-2">Construction</h3>
             <!-- <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p> -->
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        </button>
+        <button data-filter="events" class="col-lg-3 col-md-6 text-center filter-button">
           <div class="mt-5">
             <i class="fas fa-4x fa-globe text-primary mb-4"></i>
             <h3 class="h4 mb-2">Outdoor Events</h3>
             <!-- <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p> -->
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        </button>
+        <button data-filter="marketing" class="col-lg-3 col-md-6 text-center filter-button">
           <div class="mt-5">
             <i class="fas fa-4x fa-funnel-dollar text-primary mb-4"></i>
             <h3 class="h4 mb-2">Marketing</h3>
             <!-- <p class="text-muted mb-0">Is it really open source if it's not made with love?</p> -->
           </div>
-        </div>
+        </button>
       </div>
     </div>
   </section>
@@ -125,87 +132,66 @@
   <section id="portfolio">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 filter construction">
           <a class="portfolio-box" href="img/portfolio/fullsize/HigherThanYouPhotography (1).jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/HigherThanYouPhotography-Thumb (1).jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Construction
               </div>
-              <!-- <div class="project-name">
-                Project Name
-              </div> -->
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 filter construction">
           <a class="portfolio-box" href="img/portfolio/fullsize/HigherThanYouPhotography (2).jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/HigherThanYouPhotography-Thumb (2).jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Construction
               </div>
-              <!-- <div class="project-name">
-                Project Name
-              </div> -->
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 filter realEstate">
           <a class="portfolio-box" href="img/portfolio/fullsize/HigherThanYouPhotography (3).jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/HigherThanYouPhotography-Thumb (3).jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Real Estate
               </div>
-              <!-- <div class="project-name">
-                Project Name
-              </div> -->
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 filter realEstate">
           <a class="portfolio-box" href="img/portfolio/fullsize/HigherThanYouPhotography (4).jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/HigherThanYouPhotography-Thumb (4).jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Real Estate
               </div>
-              <!-- <div class="project-name">
-                Project Name
-              </div> -->
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 filter events">
           <a class="portfolio-box" href="img/portfolio/fullsize/HigherThanYouPhotography (5).jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/HigherThanYouPhotography-Thumb (5).jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Outdoor Events
               </div>
-              <!-- <div class="project-name">
-                Project Name
-              </div> -->
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 filter construction">
           <a class="portfolio-box" href="img/portfolio/fullsize/HigherThanYouPhotography (6).jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/HigherThanYouPhotography-Thumb (6).jpg" alt="">
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
                 Construction
               </div>
-              <!-- <div class="project-name">
-                Project Name
-              </div> -->
             </div>
           </a>
         </div>
-        <!-- <div class="col-12">
-          <button class="btn-primary">Load More</button>
-        </div> -->
       </div>
     </div>
   </section>
@@ -258,7 +244,7 @@
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/template/creative.min.js"></script>
+  <script src="js/template/creative.js"></script>
 
 </body>
 
