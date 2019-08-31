@@ -42,9 +42,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
@@ -88,45 +88,31 @@
     <div class="container">
       <h2 class="text-center mt-0">What we can do for you</h2>
       <hr class="divider my-4">
-      <div class="row">
-        <button data-filter="all" class="col-lg-3 col-md-6 text-center filter-button">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-home text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Show all</h3>
-            <!-- <p class="text-muted mb-0">Capture </p> -->
-          </div>
-        </button>
-        <button data-filter="realEstate" class="col-lg-3 col-md-6 text-center filter-button">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-home text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Real Estate</h3>
-            <!-- <p class="text-muted mb-0">Capture </p> -->
-          </div>
-        </button>
-        <button data-filter="construction" class="col-lg-3 col-md-6 text-center filter-button">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-wrench text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Construction</h3>
-            <!-- <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p> -->
-          </div>
-        </button>
-        <button data-filter="events" class="col-lg-3 col-md-6 text-center filter-button">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Outdoor Events</h3>
-            <!-- <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p> -->
-          </div>
-        </button>
-        <button data-filter="marketing" class="col-lg-3 col-md-6 text-center filter-button">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-funnel-dollar text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Marketing</h3>
-            <!-- <p class="text-muted mb-0">Is it really open source if it's not made with love?</p> -->
-          </div>
-        </button>
+      <div class="row justify-content-center">
+        <ul class="list-group list-group-horizontal-sm">
+          <li data-filter="all" class="d-flex flex-row justify-content-center align-items-center list-group-item flex-fill filter-button">        
+              <i class="fas fa-home text-primary mr-1"></i>
+              <p class="m-0">Show all</p>
+        </li>
+          <li data-filter="realEstate" class="d-flex flex-row justify-content-center align-items-center list-group-item flex-fill filter-button">
+                  <i class="fas fa-home text-primary mr-1"></i>
+                  <p class="m-0">Real Estate</p>
+          </li>
+          <li data-filter="construction" class="d-flex flex-row justify-content-center align-items-center list-group-item flex-fill filter-button">
+                  <i class="fas fa-wrench text-primary mr-1"></i>
+                  <p class="m-0">Construction</p>
+          </li>
+          <li data-filter="events" class="d-flex flex-row justify-content-center align-items-center list-group-item flex-fill filter-button">
+                  <i class="fas fa-globe text-primary mr-1"></i>
+                  <p class="m-0">Outdoor Events</p>
+          </li>
+          <li data-filter="marketing" class="d-flex flex-row justify-content-center align-items-center list-group-item flex-fill filter-button">
+                  <i class="fas fa-funnel-dollar text-primary mr-1"></i>
+                  <p class="m-0">Marketing</p>
+          </li>
+        </ul>
       </div>
     </div>
-  </section>
 
   <!-- Portfolio Section -->
   <section id="portfolio">
@@ -195,6 +181,7 @@
       </div>
     </div>
   </section>
+</section>
 
   <!-- Call to Action Section -->
   <!-- <section class="page-section bg-dark text-white">

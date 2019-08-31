@@ -39,3 +39,14 @@ hr.light {
 .page-section {
   padding: 8rem 0;
 }
+
+.filter-button {
+  transition: background .3s ease-in-out;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background: rgba(235, 235, 235, 0.9);
+}
